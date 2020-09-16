@@ -82,8 +82,13 @@ buttons-container a img {
 }
 
 .total-connections {
-    font-size 1.8rem;
+    font-size: 1.8rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.total-connections img {
+    margin-left: 0.8rem;
+}
 
