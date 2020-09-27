@@ -55,17 +55,13 @@ textarea {
 }
 
 #container {
-    width: 90;
+    width: 90vw;
     max-width: 700px;
 }
-@media (max-width: 699px) {
-    :root {
-        font-size: 40%; /* modificar as medidas rem*/
-    }
-}
+
 @media (min-width: 700px) {
     :root {
-        font-size: 62,5%; /* todo 1rem vai ser relativo a 10px*/
+        font-size: 62.5%; /* todo 1rem vai ser relativo a 10px*/
     }
 }
 
