@@ -1,6 +1,4 @@
-:root {
-    font-size: 40% /*modificar as medidas rem*/
-}
+
 
 
 #page-landing {
@@ -101,7 +99,8 @@ buttons-container a img {
         grid-template-areas: 
         "proffy image image"
         "button button texting";
-        gap: 60px;
+        columns gap: 87px ;
+        columns gap: 86px;
     }
 
     .logo-container{
@@ -119,10 +118,12 @@ buttons-container a img {
     .buttons-container{
         grid-area: button;
         justify-content: flex-start;
+        margin: 0;
     }
     .total-connections{
         grid-area: texting;
         justify-self: end;
+        font-size: 1.2rem;
     }
 }
 
