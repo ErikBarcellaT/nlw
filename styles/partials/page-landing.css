@@ -118,6 +118,7 @@ buttons-container a img {
     }
     .buttons-container{
         grid-area: button;
+        justify-content: flex-start;
     }
     .total-connections{
         grid-area: texting;
