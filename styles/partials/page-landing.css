@@ -4,8 +4,8 @@
 
 }
 
-#page-landing.container {
-    color: var (--color-text-in-primary);
+#page-landing #container {
+    color: var(--color-text-in-primary);
 }
 
 .logo-container img {
@@ -82,6 +82,8 @@ buttons-container a img {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 .total-connections img {
@@ -130,6 +132,7 @@ buttons-container a img {
         grid-area: texting;
         justify-self: end;
         font-size: 1.2rem;
+        
     }
 }
 
