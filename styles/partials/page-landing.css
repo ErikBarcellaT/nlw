@@ -117,7 +117,7 @@ buttons-container a img {
     }
 
     .logo-container img {
-        height: 100%;
+        height: 127px;
     }
     .hero-image{
         grid-area: image;
