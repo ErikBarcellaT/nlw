@@ -122,6 +122,7 @@ buttons-container a img {
     }
     .total-connections{
         grid-area: texting;
+        justify-self: end;
     }
 }
 
