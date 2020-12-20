@@ -126,5 +126,13 @@
 
 .teacher-item header{
     padding: 3.2rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.teacher-item img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
 }
 
