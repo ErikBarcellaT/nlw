@@ -197,7 +197,7 @@
     text-decoration: none;
 
     transition: background 0.2s;
-    margin-left: 1.6rem;
+    margin-left: 1.6rem; 
 }
 
 .teacher-item footer button:hover{
@@ -211,5 +211,11 @@
     .teacher-item header,
     .teacher-item footer{
         padding: 32px;
+    }
+
+    #search-teachers{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
     }
 }
