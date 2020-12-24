@@ -226,6 +226,10 @@
         justify-content: center;
     }
 
+    .page-header .header-content strong{
+        max-width: 350px;
+    }
+
 
     .page-header .top-bar-container{
         max-width: 1100px;
